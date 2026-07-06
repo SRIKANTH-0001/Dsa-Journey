@@ -23,7 +23,6 @@ public class Day_22_SortColors {
                 left++;
             }else if(nums[i]==2){
                 swap(nums, i, right);
-                i++;
                 right--;
             }else{
                 i++;
