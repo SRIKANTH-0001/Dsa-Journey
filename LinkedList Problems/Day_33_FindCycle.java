@@ -20,7 +20,7 @@ public class Day_33_FindCycle {
         System.out.println(result);
     }
 
-    public static boolean findCycle(ListNode head) {
+    public boolean findCycle(ListNode head) {
        ListNode slow=head;
        ListNode fast=head;
 
